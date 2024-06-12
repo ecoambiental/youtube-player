@@ -1,0 +1,9 @@
+@if (apiLoaded()) {
+<youtube-player
+  class="video-container"
+  [playerVars]="{ autoplay: 1 }"
+  [width]="width"
+  [height]="height"
+  [videoId]="id"
+></youtube-player>
+}
